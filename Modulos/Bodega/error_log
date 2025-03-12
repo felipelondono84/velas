@@ -1,0 +1,4 @@
+[04-Feb-2025 20:57:07 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/lflsoftw/public_html/velasantacruz/Modulos/Bodega/estado.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/Bodega/estado.php on line 69

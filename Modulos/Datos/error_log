@@ -1,0 +1,23 @@
+[04-Feb-2025 19:33:23 America/Bogota] PHP Notice:  Undefined index: tipo_user in /home/lflsoftw/public_html/velasantacruz/Modulos/Datos/index.php on line 8
+[04-Feb-2025 19:33:23 America/Bogota] PHP Notice:  Undefined index: tipo_user in /home/lflsoftw/public_html/velasantacruz/Modulos/Datos/index.php on line 8
+[04-Feb-2025 19:33:23 America/Bogota] PHP Notice:  Undefined index: user_name in /home/lflsoftw/public_html/velasantacruz/menu/m_datos.php on line 22
+[04-Feb-2025 20:27:40 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/lflsoftw/public_html/velasantacruz/Modulos/Datos/Deposito.php:150
+Stack trace:
+#0 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/Datos/Deposito.php on line 150
+[04-Feb-2025 20:28:42 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function limpiar() in /home/lflsoftw/public_html/velasantacruz/Modulos/Datos/Deposito.php:120
+Stack trace:
+#0 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/Datos/Deposito.php on line 120
+[06-Feb-2025 11:19:45 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/lflsoftw/public_html/velasantacruz/Modulos/Datos/medidas.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/Datos/medidas.php on line 32
+[06-Feb-2025 11:19:54 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/lflsoftw/public_html/velasantacruz/Modulos/Datos/medidas.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/Datos/medidas.php on line 32
+[06-Feb-2025 11:20:02 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/lflsoftw/public_html/velasantacruz/Modulos/Datos/medidas.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/Datos/medidas.php on line 32

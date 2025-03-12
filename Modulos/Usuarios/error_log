@@ -1,0 +1,87 @@
+[04-Feb-2025 19:33:19 America/Bogota] PHP Notice:  Undefined index: tipo_user in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/index.php on line 8
+[04-Feb-2025 19:33:19 America/Bogota] PHP Notice:  Undefined index: tipo_user in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/index.php on line 8
+[04-Feb-2025 19:33:19 America/Bogota] PHP Notice:  Undefined index: user_name in /home/lflsoftw/public_html/velasantacruz/menu/m_usuario.php on line 19
+[04-Feb-2025 20:16:42 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function limpiar() in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 86
+[04-Feb-2025 20:17:36 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function limpiar() in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 86
+[04-Feb-2025 20:17:39 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function limpiar() in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 86
+[04-Feb-2025 20:21:53 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function limpiar() in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 86
+[04-Feb-2025 20:22:43 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:22:43 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:22:43 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:22:43 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:22:43 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:22:43 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:22:43 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:22:43 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:22:43 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:22:43 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:22:43 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:22:43 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:22:43 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:22:43 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:22:43 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:22:43 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:22:43 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:22:43 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:22:43 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:22:43 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:29 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:29 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:29 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:29 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:29 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:29 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:29 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:29 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:29 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:29 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:29 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:29 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:29 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:29 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:29 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:29 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:29 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:29 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:29 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:29 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:35 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function limpiar() in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/permiso.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/permiso.php on line 17
+[04-Feb-2025 20:26:37 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:37 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:37 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:37 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:37 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:37 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:37 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:37 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:37 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:37 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:37 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:37 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:37 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:37 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:37 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:37 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:37 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:37 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:37 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:37 America/Bogota] PHP Notice:  Undefined index: nom in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/lista_usuario.php on line 98
+[04-Feb-2025 20:26:43 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/crear_usuario.php:204
+Stack trace:
+#0 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/Usuarios/crear_usuario.php on line 204

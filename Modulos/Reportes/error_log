@@ -1,0 +1,49 @@
+[04-Feb-2025 20:51:15 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function limpiar() in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/consultar_factura.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/consultar_factura.php on line 17
+[04-Feb-2025 20:52:14 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function limpiar() in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/consultar_factura.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/consultar_factura.php on line 17
+[04-Feb-2025 20:52:18 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function limpiar() in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/consultar_factura.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/consultar_factura.php on line 17
+[04-Feb-2025 20:53:24 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/imprimir.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/imprimir.php on line 32
+[04-Feb-2025 20:53:36 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/consultar_factura.php:24) in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/consultar_factura.php on line 118
+[04-Feb-2025 20:53:44 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/cierre_cajero.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/cierre_cajero.php on line 108
+[05-Feb-2025 12:17:13 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/consultar_factura.php:24) in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/consultar_factura.php on line 118
+[05-Feb-2025 12:43:35 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/consultar_factura.php:24) in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/consultar_factura.php on line 118
+[10-Feb-2025 13:46:58 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/cierre_cajero.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/cierre_cajero.php on line 108
+[10-Feb-2025 13:47:11 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/cierre_cajero.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/cierre_cajero.php on line 108
+[10-Feb-2025 13:47:15 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/cierre_cajero.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/cierre_cajero.php on line 108
+[10-Feb-2025 13:47:18 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/cierre_cajero.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/cierre_cajero.php on line 108
+[13-Feb-2025 19:50:36 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/cierre_cajero.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/cierre_cajero.php on line 108
+[03-Mar-2025 17:46:09 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/lflsoftw/public_html/velasantacruz/Modulos/php_conexion.php on line 7
+[03-Mar-2025 12:46:09 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home/lflsoftw/public_html/velasantacruz/Modulos/php_conexion.php:11
+Stack trace:
+#0 /home/lflsoftw/public_html/velasantacruz/Modulos/Reportes/index.php(3): include_once()
+#1 {main}
+  thrown in /home/lflsoftw/public_html/velasantacruz/Modulos/php_conexion.php on line 11

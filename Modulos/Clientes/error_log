@@ -1,0 +1,9 @@
+[04-Feb-2025 19:32:09 America/Bogota] PHP Notice:  Undefined index: tipo_user in /home/lflsoftw/public_html/velasantacruz/Modulos/Clientes/lista_cliente.php on line 7
+[04-Feb-2025 19:32:09 America/Bogota] PHP Notice:  Undefined index: tipo_user in /home/lflsoftw/public_html/velasantacruz/Modulos/Clientes/lista_cliente.php on line 7
+[04-Feb-2025 19:32:09 America/Bogota] PHP Notice:  Undefined index: user_name in /home/lflsoftw/public_html/velasantacruz/menu/m_cliente.php on line 20
+[04-Feb-2025 19:33:13 America/Bogota] PHP Notice:  Undefined index: tipo_user in /home/lflsoftw/public_html/velasantacruz/Modulos/Clientes/index.php on line 8
+[04-Feb-2025 19:33:13 America/Bogota] PHP Notice:  Undefined index: tipo_user in /home/lflsoftw/public_html/velasantacruz/Modulos/Clientes/index.php on line 8
+[04-Feb-2025 19:33:13 America/Bogota] PHP Notice:  Undefined index: user_name in /home/lflsoftw/public_html/velasantacruz/menu/m_cliente.php on line 20
+[04-Feb-2025 19:33:30 America/Bogota] PHP Notice:  Undefined index: tipo_user in /home/lflsoftw/public_html/velasantacruz/Modulos/Clientes/lista_cliente.php on line 7
+[04-Feb-2025 19:33:30 America/Bogota] PHP Notice:  Undefined index: tipo_user in /home/lflsoftw/public_html/velasantacruz/Modulos/Clientes/lista_cliente.php on line 7
+[04-Feb-2025 19:33:30 America/Bogota] PHP Notice:  Undefined index: user_name in /home/lflsoftw/public_html/velasantacruz/menu/m_cliente.php on line 20
