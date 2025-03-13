@@ -1,15 +1,17 @@
 <?php
-//session_start();
-error_reporting(E_ALL ^ E_DEPRECATED);
+$host = getenv('DB_HOST');
+$usuario = getenv('DB_USER');
+$password = getenv('DB_PASSWORD');
+$base_datos = getenv('DB_NAME');
+$puerto = getenv('DB_PORT') ?: 3306; // Usa el puerto por defecto si no está definido
 
+$conexion = mysqli_connect($host, $usuario, $password, $base_datos, $puerto);
 
-$conexion = mysqli_connect(
-    getenv('DB_HOST'), 
-    getenv('DB_USER'), 
-    getenv('DB_PASSWORD'), 
-    getenv('DB_NAME'), 
-    getenv('DB_PORT')
-);
+// Verifica si la conexión falló
+if (!$conexion) {
+    die("Error de conexión: " . mysqli_connect_error());
+}
+
 
 // $DB_HOST=$_ENV["DB_HOST"];
 // $DB_USER=$_ENV["DB_USER"];
@@ -31,10 +33,10 @@ $conexion = mysqli_connect(
 //$conexion = mysqli_connect("localhost","lflsoftw_uservel","h9H[~*AlZOv-","lflsoftw_velas");
 
 
-	date_default_timezone_set("America/Bogota");
-    $conexion->query("SET NAMES utf8");
-	$conexion->query("SET CHARACTER_SET utf");
-	$s='$';
+	// date_default_timezone_set("America/Bogota");
+    // $conexion->query("SET NAMES utf8");
+	// $conexion->query("SET CHARACTER_SET utf");
+	// $s='$';
 	
 	function limpiar($tags){
 		$tags = strip_tags($tags);
