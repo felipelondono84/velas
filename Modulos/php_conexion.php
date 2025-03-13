@@ -2,17 +2,17 @@
 
 $host = "mainline.proxy.rlwy.net"; // Nuevo host
 $user = "root"; // Usuario de tu base de datos
-$password = "tu_contraseña"; // Asegúrate de poner la contraseña correcta
+$password = "gNIZWemvXeJIjNIZzbSxplIXNSYOgXRL"; // Asegúrate de poner la contraseña correcta
 $database = "railway"; // Nombre de la base de datos
 $port = 3306; // Puerto estándar de MySQL
 
 $conexion = new mysqli($host, $user, $password, $database, $port);
 
 if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+    die("Connection failed: " . $conexion->connect_error);
 }
 
-echo "Connected successfully!";
+echo "Connected successfullydd!";
 
 
 
