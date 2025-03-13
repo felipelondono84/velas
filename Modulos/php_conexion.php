@@ -1,19 +1,19 @@
 <?php
 
-$DB_HOST = getenv("MYSQLHOST") ?: "localhost";
-$DB_USER = getenv("MYSQLUSER") ?: "root";
-$DB_PASSWORD = getenv("MYSQLPASSWORD") ?: "";
-$DB_NAME = getenv("MYSQLDATABASE") ?: "database";
-$DB_PORT = getenv("MYSQLPORT") ?: 3306; // Convertir en número
+$host = getenv("MYSQLHOST") ?: "mysql.railway.internal";
+$user = getenv("MYSQLUSER") ?: "root";
+$password = getenv("MYSQLPASSWORD") ?: "gNIZWemvXeJIjNIZzbSxpLIXNSYOgXRL";
+$database = getenv("MYSQLDATABASE") ?: "railway";
+$port = getenv("MYSQLPORT") ?: 3306;
 
-$conexion = mysqli_connect($DB_HOST, $DB_USER, $DB_PASSWORD, $DB_NAME, intval($DB_PORT));
+$conn = new mysqli($host, $user, $password, $database, $port);
 
-// Verificar si la conexión falló
-if (!$conexion) {
-    die("Error de conexión: " . mysqli_connect_error());
-} else {
-    echo "Conexión exitosa a la base de datos.";
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
+
+echo "Connected successfully!";
+
 
 
 
