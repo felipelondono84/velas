@@ -1,12 +1,20 @@
 <?php
+session_start();
 error_reporting(E_ALL ^ E_DEPRECATED);
 
-$host = getenv('DB_HOST');
-$user = getenv('DB_USER');
-$password = getenv('DB_PASSWORD');
-$database = getenv('DB_NAME');
+$DB_HOST=$_ENV["DB_HOST"];
+$DB_USER=$_ENV["DB_USER"];
+$DB_PASSWORD=$_ENV["DB_PASSWORD"];
+$DB_NAME=$_ENV["DB_NAME"];
+$DB_PORT=$_ENV["DB_PORT"];
+$db=mysqli_connect("$DB_HOST","$DB_USER","$DB_PASSWORD","$DB_NAME","$DB_PORT");
 
-$conexion = mysqli_connect($host, $user, $password, $database);
+// $host = getenv('DB_HOST');
+// $user = getenv('DB_USER');
+// $password = getenv('DB_PASSWORD');
+// $database = getenv('DB_NAME');
+
+// $conexion = mysqli_connect($host, $user, $password, $database);
 	
 	#$conexion = mysql_connect("localhost","root","");
 	#mysql_select_db("prueba",$conexion);
