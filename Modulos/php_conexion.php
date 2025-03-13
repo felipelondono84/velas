@@ -1,17 +1,20 @@
 <?php
 
-$DB_HOST = getenv("DB_HOST") ?: "localhost";
-$DB_USER = getenv("DB_USER") ?: "root";
-$DB_PASSWORD = getenv("DB_PASSWORD") ?: "";
-$DB_NAME = getenv("DB_NAME") ?: "database";
-$DB_PORT = getenv("DB_PORT") ?: 3306; // Debe ser un número
+$DB_HOST = getenv("MYSQLHOST") ?: "localhost";
+$DB_USER = getenv("MYSQLUSER") ?: "root";
+$DB_PASSWORD = getenv("MYSQLPASSWORD") ?: "";
+$DB_NAME = getenv("MYSQLDATABASE") ?: "database";
+$DB_PORT = getenv("MYSQLPORT") ?: 3306; // Convertir en número
 
 $conexion = mysqli_connect($DB_HOST, $DB_USER, $DB_PASSWORD, $DB_NAME, intval($DB_PORT));
 
 // Verificar si la conexión falló
 if (!$conexion) {
     die("Error de conexión: " . mysqli_connect_error());
+} else {
+    echo "Conexión exitosa a la base de datos.";
 }
+
 
 
 // $host = getenv('DB_HOST');
