@@ -6,7 +6,7 @@ $password = "tu_contraseña"; // Asegúrate de poner la contraseña correcta
 $database = "railway"; // Nombre de la base de datos
 $port = 3306; // Puerto estándar de MySQL
 
-$conn = new mysqli($host, $user, $password, $database, $port);
+$conexion = new mysqli($host, $user, $password, $database, $port);
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
