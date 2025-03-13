@@ -37,13 +37,13 @@
 	}
 	
 	function permiso($usu,$id){
-	    $conexion = mysqli_connect(
-			getenv('DB_HOST'), 
-			getenv('DB_USER'), 
-			getenv('DB_PASSWORD'), 
-			getenv('DB_NAME'), 
-			getenv('DB_PORT')
-		);
+	    $host = "mainline.proxy.rlwy.net"; // Nuevo host
+		$user = "root"; // Usuario de tu base de datos
+		$password = "gNIZWemvXeJIjNIZzbSxplIXNSYOgXRL"; // Asegúrate de poner la contraseña correcta
+		$database = "railway"; // Nombre de la base de datos
+		$port = 3306; // Puerto estándar de MySQL
+
+		$conexion = new mysqli($host, $user, $password, $database, $port);
 		$consulta=$conexion->query("SELECT * FROM permisos WHERE usu='$usu' and permiso='$id' and estado='s'");
 		if($v=$consulta->fetch_array()){
 			return TRUE;
@@ -89,13 +89,13 @@
 	}
 	
 	function total_abonado2($cliente,$factura){
-	    $conexion = mysqli_connect(
-			getenv('DB_HOST'), 
-			getenv('DB_USER'), 
-			getenv('DB_PASSWORD'), 
-			getenv('DB_NAME'), 
-			getenv('DB_PORT')
-		);
+	    $host = "mainline.proxy.rlwy.net"; // Nuevo host
+		$user = "root"; // Usuario de tu base de datos
+		$password = "gNIZWemvXeJIjNIZzbSxplIXNSYOgXRL"; // Asegúrate de poner la contraseña correcta
+		$database = "railway"; // Nombre de la base de datos
+		$port = 3306; // Puerto estándar de MySQL
+
+		$conexion = new mysqli($host, $user, $password, $database, $port);
 		$consulta=$conexion->query("SELECT SUM(valor) as neto FROM abonos WHERE factura='$factura' and cliente='$cliente'");	
 		if($valor=$consulta->fetch_array()){
 			return $valor['neto'];
@@ -175,22 +175,22 @@
 	}
 	
 	function formato($valor){
-	    $conexion = mysqli_connect(
-			getenv('DB_HOST'), 
-			getenv('DB_USER'), 
-			getenv('DB_PASSWORD'), 
-			getenv('DB_NAME'), 
-			getenv('DB_PORT')
-		);
+	    $host = "mainline.proxy.rlwy.net"; // Nuevo host
+		$user = "root"; // Usuario de tu base de datos
+		$password = "gNIZWemvXeJIjNIZzbSxplIXNSYOgXRL"; // Asegúrate de poner la contraseña correcta
+		$database = "railway"; // Nombre de la base de datos
+		$port = 3306; // Puerto estándar de MySQL
+
+		$conexion = new mysqli($host, $user, $password, $database, $port);
 		return number_format($valor,0, '', '.');
 	}
-	$conexion = mysqli_connect(
-		getenv('DB_HOST'), 
-		getenv('DB_USER'), 
-		getenv('DB_PASSWORD'), 
-		getenv('DB_NAME'), 
-		getenv('DB_PORT')
-	);
+	$host = "mainline.proxy.rlwy.net"; // Nuevo host
+	$user = "root"; // Usuario de tu base de datos
+	$password = "gNIZWemvXeJIjNIZzbSxplIXNSYOgXRL"; // Asegúrate de poner la contraseña correcta
+	$database = "railway"; // Nombre de la base de datos
+	$port = 3306; // Puerto estándar de MySQL
+
+	$conexion = new mysqli($host, $user, $password, $database, $port);
 	$pa=$conexion->query("SELECT * FROM empresa WHERE id=1");
 	
     if($row=$pa->fetch_array()){
