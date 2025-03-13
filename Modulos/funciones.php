@@ -37,7 +37,13 @@
 	}
 	
 	function permiso($usu,$id){
-	    $conexion = mysqli_connect("localhost","lflsoftw_uservel","h9H[~*AlZOv-","lflsoftw_velas");
+	    $conexion = mysqli_connect(
+			getenv('DB_HOST'), 
+			getenv('DB_USER'), 
+			getenv('DB_PASSWORD'), 
+			getenv('DB_NAME'), 
+			getenv('DB_PORT')
+		);
 		$consulta=$conexion->query("SELECT * FROM permisos WHERE usu='$usu' and permiso='$id' and estado='s'");
 		if($v=$consulta->fetch_array()){
 			return TRUE;
@@ -51,7 +57,13 @@
 	}
 	################################################################################################
 	function total_abonado($cliente){
-	    $conexion = mysqli_connect("localhost","lflsoftw_uservel","h9H[~*AlZOv-","lflsoftw_velas");
+	    $conexion = mysqli_connect(
+			getenv('DB_HOST'), 
+			getenv('DB_USER'), 
+			getenv('DB_PASSWORD'), 
+			getenv('DB_NAME'), 
+			getenv('DB_PORT')
+		);
 		$consulta=$conexion->query("SELECT SUM(valor) as neto FROM abonos WHERE cliente='$cliente'");	
 		if($valor=$consulta->fetch_array()){
 			return $valor['neto'];
@@ -61,7 +73,13 @@
 	}
 	
 	function total_ocupado($cliente){
-	    $conexion = mysqli_connect("localhost","lflsoftw_uservel","h9H[~*AlZOv-","lflsoftw_velas");
+	    $conexion = mysqli_connect(
+			getenv('DB_HOST'), 
+			getenv('DB_USER'), 
+			getenv('DB_PASSWORD'), 
+			getenv('DB_NAME'), 
+			getenv('DB_PORT')
+		);
 		$consulta=$conexion->query("SELECT SUM(valor) as neto FROM factura WHERE clase='CREDITO' and cliente='$cliente'");	
 		if($valor=$consulta->fetch_array()){
 			return $valor['neto'];
@@ -71,7 +89,13 @@
 	}
 	
 	function total_abonado2($cliente,$factura){
-	    $conexion = mysqli_connect("localhost","lflsoftw_uservel","h9H[~*AlZOv-","lflsoftw_velas");
+	    $conexion = mysqli_connect(
+			getenv('DB_HOST'), 
+			getenv('DB_USER'), 
+			getenv('DB_PASSWORD'), 
+			getenv('DB_NAME'), 
+			getenv('DB_PORT')
+		);
 		$consulta=$conexion->query("SELECT SUM(valor) as neto FROM abonos WHERE factura='$factura' and cliente='$cliente'");	
 		if($valor=$consulta->fetch_array()){
 			return $valor['neto'];
@@ -81,7 +105,13 @@
 	}
 	
 	function total_ocupado2($cliente,$factura){
-	    $conexion = mysqli_connect("localhost","lflsoftw_uservel","h9H[~*AlZOv-","lflsoftw_velas");
+	    $conexion = mysqli_connect(
+			getenv('DB_HOST'), 
+			getenv('DB_USER'), 
+			getenv('DB_PASSWORD'), 
+			getenv('DB_NAME'), 
+			getenv('DB_PORT')
+		);
 		$consulta=$conexion->query("SELECT SUM(valor) as neto FROM factura WHERE factura='$factura' and  clase='CREDITO' and cliente='$cliente'");	
 		if($valor=$consulta->fetch_array()){
 			return $valor['neto'];
@@ -145,10 +175,22 @@
 	}
 	
 	function formato($valor){
-	    $conexion = mysqli_connect("localhost","lflsoftw_uservel","h9H[~*AlZOv-","lflsoftw_velas");
+	    $conexion = mysqli_connect(
+			getenv('DB_HOST'), 
+			getenv('DB_USER'), 
+			getenv('DB_PASSWORD'), 
+			getenv('DB_NAME'), 
+			getenv('DB_PORT')
+		);
 		return number_format($valor,0, '', '.');
 	}
-$conexion = mysqli_connect("localhost","lflsoftw_uservel","h9H[~*AlZOv-","lflsoftw_velas");
+	$conexion = mysqli_connect(
+		getenv('DB_HOST'), 
+		getenv('DB_USER'), 
+		getenv('DB_PASSWORD'), 
+		getenv('DB_NAME'), 
+		getenv('DB_PORT')
+	);
 	$pa=$conexion->query("SELECT * FROM empresa WHERE id=1");
 	
     if($row=$pa->fetch_array()){
