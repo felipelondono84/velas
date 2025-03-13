@@ -1,10 +1,10 @@
 <?php
 
-$host = getenv("MYSQLHOST") ?: "mysql.railway.internal";
-$user = getenv("MYSQLUSER") ?: "root";
-$password = getenv("MYSQLPASSWORD") ?: "gNIZWemvXeJIjNIZzbSxpLIXNSYOgXRL";
-$database = getenv("MYSQLDATABASE") ?: "railway";
-$port = getenv("MYSQLPORT") ?: 3306;
+$host = "mainline.proxy.rlwy.net"; // Nuevo host
+$user = "root"; // Usuario de tu base de datos
+$password = "tu_contraseña"; // Asegúrate de poner la contraseña correcta
+$database = "railway"; // Nombre de la base de datos
+$port = 3306; // Puerto estándar de MySQL
 
 $conn = new mysqli($host, $user, $password, $database, $port);
 
@@ -13,6 +13,7 @@ if ($conn->connect_error) {
 }
 
 echo "Connected successfully!";
+
 
 
 
